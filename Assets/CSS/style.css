@@ -1,0 +1,113 @@
+.container {
+    min-height: 74px;
+    max-width: 100%;
+    background-color: white;
+    margin: auto;
+    border-bottom: 1px rgb(202, 202, 202) solid;
+}
+
+header {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.nav {
+    float: right;
+    background-color: white;
+    padding: 10px;
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding: 10px 10px;
+}
+
+
+
+.aboutmeimage {
+    max-width: 35%;
+    min-width: 15%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.aboutme,
+#portfolioimages,
+.contactForm {
+    margin: 25px 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+    max-width: 960px;
+    background-color: white;
+
+}
+
+#portfolioimages img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.textContainer {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 10px 10px;
+    width: 93.5%;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    font-size: 22px;
+}
+
+.container2 {
+    margin: auto;
+    background-color: #ffffff;
+    max-width: 960px;
+    border-bottom:solid;
+    border-bottom-color: #cccccc;
+    margin-bottom: 10px;
+}
+
+h2 {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-size: 24px;
+    width: 960px;
+    margin:auto;
+    padding: 20px;
+    border-bottom: #cccccc 2px;
+}
+
